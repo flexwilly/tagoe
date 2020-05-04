@@ -1,0 +1,134 @@
+body {
+  width: 100%; height: 100%; 
+  margin: 0; padding: 0; border: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 13px; line-height: 15px;
+  background: #D3D3D3;S
+}
+#main { 
+	height: 600px; width: 100%; 
+	margin: 0; padding: 0; 
+	background: ##D3D3D3;
+}
+
+#header h1 { padding: 1em; margin: 0; }
+#header { 
+	height: 70px; 
+	margin: 0; padding: 0; text-align: left; 
+  background: #1A446C; color: #D4E6F4;
+}
+
+
+#bronzish {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+#bronzish td, #bronzish th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#bronzish tr:nth-child(even){background-color: #f2f2f2;}
+
+#bronzish tr:hover {background-color: #ddd;}
+
+#bronzish th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #D2691E;
+  color: white;
+}
+#silverish {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  float:left;
+}
+
+#silverish td, #silverish th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#silverish tr:nth-child(even){background-color: #f2f2f2;}
+
+#silverish tr:hover {background-color: #ddd;}
+
+#silverish th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #C0C0C0;
+  color: white;
+}
+#goldish td, #silverish th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#goldish {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  
+}
+
+#goldish td, #silverish th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#goldish tr:nth-child(even){background-color: #f2f2f2;}
+
+#goldish tr:hover {background-color: #ddd;}
+
+#goldish th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FFDF00;
+  color: white;
+}
+#silverish td, #silverish th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #D3D3D3;
+}
+
+
+#footer { 
+	clear: both;
+	height: 2em; margin: 0; padding: 1em; 
+	text-align: center; 
+  background: #1A446C;  color: #D4E6F4;
+}
